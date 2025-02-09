@@ -1,6 +1,4 @@
-# number-classifier
-Code to bring up number properties witha  fun fact
-Number Facts API
+📊 Number Facts API
 An API that takes a number as input and returns interesting mathematical properties, such as prime status, factors, and more—along with a fun fact!
 
 🚀 Features
@@ -51,3 +49,22 @@ Edit
   "fibonacci": false,
   "fun_fact": "42 is the answer to life, the universe, and everything."
 }
+🔧 API Endpoints
+Method	Endpoint	Description
+GET	/number/{num}	Returns properties and facts of {num}
+🛠 Technologies
+Python (Flask/FastAPI)
+Math & Number Theory
+Fun Fact Dataset
+🤝 Contributing
+Fork the repo and create a new branch:
+bash
+Copy
+Edit
+git checkout -b feature-branch
+Make changes and commit:
+bash
+Copy
+Edit
+git commit -m "Added new feature"
+Push and create a pull request.
